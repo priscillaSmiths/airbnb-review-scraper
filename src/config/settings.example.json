@@ -1,0 +1,20 @@
+{
+  "mode": "mock",
+  "concurrency": 5,
+  "request_timeout_seconds": 20,
+  "max_retries": 3,
+  "retry_backoff_seconds": 2,
+  "airbnb": {
+    "base_url": "https://www.airbnb.com/api/v3/PdpReviews",
+    "operation_name": "PdpReviews",
+    "currency": "USD",
+    "locale": "en",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-language": "en-US,en;q=0.9",
+      "content-type": "application/json",
+      "x-airbnb-api-key": "d306zoyjsyarp7ifhu67rjxn52tv0t20",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+    }
+  }
+}
